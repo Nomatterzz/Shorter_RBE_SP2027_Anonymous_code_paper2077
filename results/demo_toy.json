@@ -1,0 +1,1 @@
+{"preset": "toy", "ciphertext_bytes": 1055, "historical_replay": true, "roundtrip": true, "gaussian_samples": 328, "quantized_coefficients": 248}

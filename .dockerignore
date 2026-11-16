@@ -1,0 +1,9 @@
+.git
+build*
+_work
+__pycache__
+results/local
+*.zip
+*.sk
+*.key
+*.bin

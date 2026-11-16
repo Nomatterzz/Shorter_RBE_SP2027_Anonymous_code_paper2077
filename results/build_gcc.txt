@@ -1,0 +1,4 @@
+[1/4] Building CXX object CMakeFiles/rbe.dir/src/scheme.cpp.o
+[2/4] Linking CXX static library librbe.a
+[3/4] Linking CXX executable rbe_cli
+[4/4] Linking CXX executable rbe_tests

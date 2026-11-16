@@ -1,0 +1,14 @@
+$ cmake --build build-release-sanitize -j2
+
+[ 11%] Building CXX object CMakeFiles/rbe.dir/src/arithmetic.cpp.o
+[ 22%] Building CXX object CMakeFiles/rbe.dir/src/sampling.cpp.o
+[ 33%] Building CXX object CMakeFiles/rbe.dir/src/scheme.cpp.o
+[ 44%] Building CXX object CMakeFiles/rbe.dir/src/serialization.cpp.o
+[ 55%] Linking CXX static library librbe.a
+[ 55%] Built target rbe
+[ 66%] Building CXX object CMakeFiles/rbe_tests.dir/tests/tests.cpp.o
+[ 77%] Building CXX object CMakeFiles/rbe_cli.dir/src/main.cpp.o
+[ 88%] Linking CXX executable rbe_cli
+[ 88%] Built target rbe_cli
+[100%] Linking CXX executable rbe_tests
+[100%] Built target rbe_tests

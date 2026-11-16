@@ -1,0 +1,22 @@
+{
+  "preset": "toy",
+  "method": "Python Kronecker-substitution integer products; no C++ NTT",
+  "key_relation": true,
+  "current_and_historical": [
+    {
+      "snapshot": 3,
+      "bucket": 1,
+      "path_relation": true,
+      "decryption_matches": true,
+      "ciphertext_sha256": "efc424e2aaf8c5a507bd8ae86febeb7a2ae1465900d23d95f6d761a18c674f01"
+    },
+    {
+      "snapshot": 1,
+      "bucket": 0,
+      "path_relation": true,
+      "decryption_matches": true,
+      "ciphertext_sha256": "02f06848cf3d6a08e05a404564b1786519b37108e09cdcb0e1d6e721f698245f"
+    }
+  ]
+}
+

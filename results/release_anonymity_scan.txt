@@ -1,0 +1,13 @@
+$ /opt/pyvenv/bin/python3 scripts/anonymity_audit.py --out results/anonymity_audit.json
+
+{
+  "text_files_checked": 114,
+  "issues": [],
+  "passed": true,
+  "manual_checks_still_required": [
+    "Git commit author/committer/email and signatures",
+    "GitHub account owner, activity and profile",
+    "repository remotes, issue/CI metadata and historical releases",
+    "paper submission metadata and artifact URL ownership"
+  ]
+}

@@ -1,0 +1,12 @@
+$ cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
+
+-- The CXX compiler identification is GNU 14.2.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found suitable version "3.5.7", minimum required is "3.0") found components: Crypto
+-- Configuring done (0.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: <clean-room>/rbe-artifact/build

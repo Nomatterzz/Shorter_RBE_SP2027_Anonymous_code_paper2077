@@ -1,0 +1,9 @@
+{
+  "CDT_thresholds_regenerated": true,
+  "interval_precision": 896,
+  "threshold_bits": 256,
+  "acceptance_interval_crosschecks": 120,
+  "maximum_observed_384bit_interval_width": 279,
+  "per_sample_TV_analytic_bound": "2^-240 under independent ideal bits",
+  "scope": "interval and distribution checks; finite statistical smoke tests are not a DFR measurement"
+}

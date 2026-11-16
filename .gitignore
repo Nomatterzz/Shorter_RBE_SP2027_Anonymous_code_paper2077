@@ -1,0 +1,16 @@
+/build*/
+/_work/
+/results/local/
+/results/my-benchmarks/
+__pycache__/
+*.pyc
+*.sk
+*.pk
+*.key
+*.ct
+*.witness
+*.bin
+*.log
+*.tmp-*
+*.zip
+.git/

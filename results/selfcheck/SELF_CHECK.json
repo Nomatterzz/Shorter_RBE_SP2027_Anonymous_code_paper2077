@@ -1,0 +1,91 @@
+{
+  "format": 1,
+  "all_passed": true,
+  "steps": [
+    {
+      "name": "cpp_all",
+      "returncode": 0,
+      "passed": true,
+      "seconds": 10.174230495999836,
+      "log": "cpp_all.txt"
+    },
+    {
+      "name": "known_answers",
+      "returncode": 0,
+      "passed": true,
+      "seconds": 0.8977573629999824,
+      "log": "known_answers.txt"
+    },
+    {
+      "name": "parameter_certificates",
+      "returncode": 0,
+      "passed": true,
+      "seconds": 2.8492901919998985,
+      "log": "parameter_certificates.txt"
+    },
+    {
+      "name": "gaussian_certificates",
+      "returncode": 0,
+      "passed": true,
+      "seconds": 1.3566660110000157,
+      "log": "gaussian_certificates.txt"
+    },
+    {
+      "name": "independent_quantizer",
+      "returncode": 0,
+      "passed": true,
+      "seconds": 6.036608010999771,
+      "log": "independent_quantizer.txt"
+    },
+    {
+      "name": "persistent_cli_toy",
+      "returncode": 0,
+      "passed": true,
+      "seconds": 1.2517387170000802,
+      "log": "persistent_cli_toy.txt"
+    },
+    {
+      "name": "persistent_cli_main",
+      "returncode": 0,
+      "passed": true,
+      "seconds": 5.698417568999957,
+      "log": "persistent_cli_main.txt"
+    },
+    {
+      "name": "demo_toy",
+      "returncode": 0,
+      "passed": true,
+      "seconds": 0.018169738000324287,
+      "log": "demo_toy.txt"
+    },
+    {
+      "name": "python_oracle_toy",
+      "returncode": 0,
+      "passed": true,
+      "seconds": 1.014671410000119,
+      "log": "python_oracle_toy.txt"
+    },
+    {
+      "name": "demo_main",
+      "returncode": 0,
+      "passed": true,
+      "seconds": 2.3506001079999805,
+      "log": "demo_main.txt"
+    },
+    {
+      "name": "python_oracle_main",
+      "returncode": 0,
+      "passed": true,
+      "seconds": 88.252441782,
+      "log": "python_oracle_main.txt"
+    }
+  ],
+  "not_claimed": [
+    "Docker execution",
+    "remote GitHub Actions execution",
+    "fresh lattice-estimator run",
+    "upstream KLSS runtime comparison",
+    "empirical measurement of a 2^-143 failure probability",
+    "billion-user live population benchmark"
+  ]
+}

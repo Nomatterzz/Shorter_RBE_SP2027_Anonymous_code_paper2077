@@ -1,0 +1,6 @@
+{
+  "method": "exact rational integration, independent of the C++ weight formulas",
+  "modulus_pairs": 2016,
+  "input_rows": 87360,
+  "mass_mean_variance_and_uniformity": true
+}

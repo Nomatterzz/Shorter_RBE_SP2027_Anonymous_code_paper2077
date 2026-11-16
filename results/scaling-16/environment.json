@@ -1,0 +1,15 @@
+{
+  "cpu_model": "INTEL(R) XEON(R) PLATINUM 8573C",
+  "logical_cpus": 5,
+  "affinity_cpu_count": 5,
+  "memory_total": "6090668 kB",
+  "system": "Linux",
+  "kernel": "6.18.57",
+  "architecture": "x86_64",
+  "python": "3.13.5",
+  "measurement_utc": "2026-11-16T04:21:12Z",
+  "parallel_scheme_threads": 1,
+  "clock": "steady_clock wall time",
+  "host_type": "shared/containerized execution environment; not a controlled dedicated bare-metal benchmark",
+  "hostname_recorded": false
+}

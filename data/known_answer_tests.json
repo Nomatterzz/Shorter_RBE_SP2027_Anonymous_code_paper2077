@@ -1,0 +1,26 @@
+{
+  "format": 1,
+  "seed_rule": "full-parameter-<preset>; publicly known TEST-ONLY keys",
+  "vectors": {
+    "main": {
+      "ciphertext_sha256": "5421d9b8f0f17f695bfcf09d826e327c882d6828414a1f2b968ceeb21c005704",
+      "parameters_sha256": "39297cce097758e698475df35a4cdf5be609f7fb4657093adb21c2897a62d09c"
+    },
+    "matched": {
+      "ciphertext_sha256": "8ab6a54fe86b5bb208498e971a999cc6b79f680aa6b7446f722c2306ae758e8d",
+      "parameters_sha256": "87d64da5719e8c4378275ec1ba624837b676216ef07120938c0636042d1f70ae"
+    },
+    "published-gadget": {
+      "ciphertext_sha256": "2a42e7829cc83ee43cb9a8d7cbb45a781bbb1d977fe4bc9d37f5cf4a2bc006c3",
+      "parameters_sha256": "a71e6e2e7ff8509f50fab14552a575a720bca0663f687fa8ac4ebc9f9a8c87f3"
+    },
+    "two-independent": {
+      "ciphertext_sha256": "bd95382ed980b50bc2cfee0fe807a0e9070ab50dbb5a0ed480b2e637e9ba5516",
+      "parameters_sha256": "552b55af4eb710ff084f8aeb2a9dc8e57484961d9442354510fb3fffa8c27b2c"
+    },
+    "two-radix": {
+      "ciphertext_sha256": "05321d5119879bacb635aa305df5817e7077dac323e0eaf736733f4b8099a79d",
+      "parameters_sha256": "0995beb52197fe126c6c5ca9d194459daec88a6a5853201638f43471841a6287"
+    }
+  }
+}

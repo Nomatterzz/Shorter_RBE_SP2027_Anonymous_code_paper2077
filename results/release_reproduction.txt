@@ -1,0 +1,14 @@
+$ /opt/pyvenv/bin/python3 scripts/reproduce.py --binary-dir build --out-dir results/selfcheck
+
+cpp_all: PASS (10.174s)
+known_answers: PASS (0.898s)
+parameter_certificates: PASS (2.849s)
+gaussian_certificates: PASS (1.357s)
+independent_quantizer: PASS (6.037s)
+persistent_cli_toy: PASS (1.252s)
+persistent_cli_main: PASS (5.698s)
+demo_toy: PASS (0.018s)
+python_oracle_toy: PASS (1.015s)
+demo_main: PASS (2.351s)
+python_oracle_main: PASS (88.252s)
+All requested reproduction checks passed.

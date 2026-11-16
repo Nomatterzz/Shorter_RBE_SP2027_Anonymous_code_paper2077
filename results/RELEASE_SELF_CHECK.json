@@ -1,0 +1,198 @@
+{
+  "completed": true,
+  "all_required_checks_passed": true,
+  "checks": [
+    {
+      "name": "python_syntax",
+      "return_code": 0,
+      "passed": true,
+      "required": true,
+      "seconds": 1.12,
+      "log": "results/release_python_syntax.txt"
+    },
+    {
+      "name": "gcc_configure",
+      "return_code": 0,
+      "passed": true,
+      "required": true,
+      "seconds": 0.114,
+      "log": "results/release_gcc_configure.txt"
+    },
+    {
+      "name": "gcc_build",
+      "return_code": 0,
+      "passed": true,
+      "required": true,
+      "seconds": 0.032,
+      "log": "results/release_gcc_build.txt"
+    },
+    {
+      "name": "gcc_full_tests",
+      "return_code": 0,
+      "passed": true,
+      "required": true,
+      "seconds": 10.148,
+      "log": "results/release_gcc_full_tests.txt"
+    },
+    {
+      "name": "gcc_kat_check",
+      "return_code": 0,
+      "passed": true,
+      "required": true,
+      "seconds": 1.026,
+      "log": "results/release_gcc_kat_check.txt"
+    },
+    {
+      "name": "reproduction",
+      "return_code": 0,
+      "passed": true,
+      "required": true,
+      "seconds": 120.991,
+      "log": "results/release_reproduction.txt"
+    },
+    {
+      "name": "reproduction_completeness",
+      "passed": true,
+      "required": true,
+      "detail": "Expected eleven complete reproduction stages, not an in-progress success report."
+    },
+    {
+      "name": "clang_configure",
+      "return_code": 0,
+      "passed": true,
+      "required": true,
+      "seconds": 0.116,
+      "log": "results/release_clang_configure.txt"
+    },
+    {
+      "name": "clang_build",
+      "return_code": 0,
+      "passed": true,
+      "required": true,
+      "seconds": 0.064,
+      "log": "results/release_clang_build.txt"
+    },
+    {
+      "name": "clang_full_tests",
+      "return_code": 0,
+      "passed": true,
+      "required": true,
+      "seconds": 9.994,
+      "log": "results/release_clang_full_tests.txt"
+    },
+    {
+      "name": "clang_kat_check",
+      "return_code": 0,
+      "passed": true,
+      "required": true,
+      "seconds": 0.876,
+      "log": "results/release_clang_kat_check.txt"
+    },
+    {
+      "name": "sanitizer_configure",
+      "return_code": 0,
+      "passed": true,
+      "required": true,
+      "seconds": 0.516,
+      "log": "results/release_sanitizer_configure.txt"
+    },
+    {
+      "name": "sanitizer_build",
+      "return_code": 0,
+      "passed": true,
+      "required": true,
+      "seconds": 34.334,
+      "log": "results/release_sanitizer_build.txt"
+    },
+    {
+      "name": "address_undefined_leak_sanitizers",
+      "return_code": 0,
+      "passed": true,
+      "required": true,
+      "seconds": 30.689,
+      "log": "results/release_address_undefined_leak_sanitizers.txt"
+    },
+    {
+      "name": "matched_backend_benchmarks",
+      "return_code": 0,
+      "passed": true,
+      "required": true,
+      "seconds": 37.495,
+      "log": "results/release_matched_backend_benchmarks.txt"
+    },
+    {
+      "name": "population16_main",
+      "return_code": 0,
+      "passed": true,
+      "required": true,
+      "seconds": 6.284,
+      "log": "results/release_population16_main.txt"
+    },
+    {
+      "name": "population16_two-independent",
+      "return_code": 0,
+      "passed": true,
+      "required": true,
+      "seconds": 11.245,
+      "log": "results/release_population16_two-independent.txt"
+    },
+    {
+      "name": "anonymity_scan",
+      "return_code": 0,
+      "passed": true,
+      "required": true,
+      "seconds": 1.073,
+      "log": "results/release_anonymity_scan.txt"
+    },
+    {
+      "name": "clean_archive_configure",
+      "return_code": 0,
+      "passed": true,
+      "required": true,
+      "seconds": 0.365,
+      "log": "results/release_clean_archive_configure.txt"
+    },
+    {
+      "name": "clean_archive_build",
+      "return_code": 0,
+      "passed": true,
+      "required": true,
+      "seconds": 27.285,
+      "log": "results/release_clean_archive_build.txt"
+    },
+    {
+      "name": "clean_archive_full_tests",
+      "return_code": 0,
+      "passed": true,
+      "required": true,
+      "seconds": 9.751,
+      "log": "results/release_clean_archive_full_tests.txt"
+    },
+    {
+      "name": "clean_archive_kat_check",
+      "return_code": 0,
+      "passed": true,
+      "required": true,
+      "seconds": 0.869,
+      "log": "results/release_clean_archive_kat_check.txt"
+    },
+    {
+      "name": "final_anonymity_scan",
+      "return_code": 0,
+      "passed": true,
+      "required": true,
+      "seconds": 0.872,
+      "log": "results/release_final_anonymity_scan.txt"
+    }
+  ],
+  "not_executed": [
+    "Remote GitHub Actions",
+    "Docker image build/run",
+    "Fresh lattice-estimator analysis",
+    "Upstream KLSS prototype runtime comparison",
+    "Billion-user population experiment"
+  ],
+  "benchmark_scope": "This implementation, fixed public preprocessing reported separately, actual registered populations stated in each result; no timing comparison with upstream KLSS.",
+  "sampler_scope": "Finite-precision Gaussian coupling bounds are in the ideal-random-bit model. Default implementation uses OpenSSL CSPRNG. Randomized coefficient quantization uses exact integer probabilities.",
+  "publication_scope": "Anonymous repository-ready package; no remote repository or artifact-submission metadata has been created on behalf of the authors."
+}

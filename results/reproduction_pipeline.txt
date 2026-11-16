@@ -1,0 +1,12 @@
+cpp_all: PASS (13.974s)
+known_answers: PASS (0.895s)
+parameter_certificates: PASS (2.754s)
+gaussian_certificates: PASS (1.489s)
+independent_quantizer: PASS (6.935s)
+persistent_cli_toy: PASS (1.709s)
+persistent_cli_main: PASS (4.297s)
+demo_toy: PASS (0.042s)
+python_oracle_toy: PASS (0.971s)
+demo_main: PASS (2.764s)
+python_oracle_main: PASS (99.831s)
+All requested reproduction checks passed.

@@ -1,0 +1,10 @@
+{
+ "format": 1, "preset": "two-independent", "actual_registered_users": 16, "capacity": 1073741823, "iterations": 1,
+ "randomness": "OpenSSL RAND_priv_bytes",
+ "compiler": "14.2.0", "openssl_runtime": "OpenSSL 3.5.5 27 Jan 2026",
+ "comparison_scope": "same-backend controls, not upstream KLSS timings",
+ "setup_ms": 3.689206, "public_preparation_ms": 6.21474, "pp_serialization_ms": 1.866687, "pp_bytes": 849408,
+ "runs": [
+ {"trial": 0, "keygen_total_ms": 5.366951, "keygen_per_user_ms": 0.3354344375, "registration_total_ms": 9972.067521, "registration_per_user_ms": 623.254220063, "registration_ms": [219.773496, 381.758949, 179.508813, 765.226845, 179.049722, 356.795547, 208.407671, 1701.788647, 189.81371, 353.516265, 181.628051, 721.642408, 178.09017, 363.499251, 180.05789, 3811.505723], "witness_ms": 3.582957, "witness_serialization_ms": 56.732322, "encrypt_ms": 495.823433, "ciphertext_serialization_ms": 17.058596, "encrypt_and_serialize_ms": 512.882029, "ciphertext_parse_ms": 18.189917, "decrypt_ms": 611.32657, "parse_and_decrypt_ms": 629.516487, "ciphertext_bytes": 5691716, "witness_bytes": 2612741, "state_bytes": 322564, "log_bytes": 172624, "secret_key_bytes": 3808, "live_internal_nodes": 2540, "rebuilt_internal_nodes": 7682, "gaussian_samples": 2043392, "large_candidates": 7922, "large_rejections": 242, "gaussian_refinements": 0, "quantized_coefficients": 1751296, "encryption_random_bytes_consumed": 83228949, "peak_rss_kib": 520740, "roundtrip": true}
+ ]
+}

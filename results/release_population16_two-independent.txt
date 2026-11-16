@@ -1,0 +1,2 @@
+$ build/rbe_cli benchmark --preset two-independent --users 16 --iterations 1 --out results/scaling-16/two-independent.json
+

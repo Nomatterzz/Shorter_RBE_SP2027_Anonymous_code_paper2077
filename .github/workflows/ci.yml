@@ -1,0 +1,30 @@
+name: anonymous-artifact-checks
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  reproduce:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - name: Dependencies
+        run: sudo apt-get update && sudo apt-get install -y cmake ninja-build libssl-dev libboost-dev python3
+      - name: Release build
+        run: cmake -S . -B build -G Ninja -DCMAKE_BUILD_TYPE=Release && cmake --build build -j2
+      - name: Reproduction
+        run: python3 scripts/reproduce.py --binary-dir build --out-dir results/local
+  sanitizers:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - name: Dependencies
+        run: sudo apt-get update && sudo apt-get install -y cmake ninja-build libssl-dev libboost-dev python3
+      - name: Sanitizer build
+        run: cmake -S . -B build-sanitize -G Ninja -DCMAKE_BUILD_TYPE=RelWithDebInfo -DRBE_SANITIZE=ON && cmake --build build-sanitize -j2
+      - name: Address and undefined-behaviour checks
+        run: ASAN_OPTIONS=detect_leaks=1:halt_on_error=1 UBSAN_OPTIONS=halt_on_error=1 ./build-sanitize/rbe_tests --all

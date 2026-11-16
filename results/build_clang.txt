@@ -1,0 +1,9 @@
+[1/9] Building CXX object CMakeFiles/rbe.dir/src/arithmetic.cpp.o
+[2/9] Building CXX object CMakeFiles/rbe.dir/src/sampling.cpp.o
+[3/9] Building CXX object CMakeFiles/rbe.dir/src/scheme.cpp.o
+[4/9] Building CXX object CMakeFiles/rbe.dir/src/serialization.cpp.o
+[5/9] Linking CXX static library librbe.a
+[6/9] Building CXX object CMakeFiles/rbe_cli.dir/src/main.cpp.o
+[7/9] Building CXX object CMakeFiles/rbe_tests.dir/tests/tests.cpp.o
+[8/9] Linking CXX executable rbe_cli
+[9/9] Linking CXX executable rbe_tests
